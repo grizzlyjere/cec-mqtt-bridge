@@ -12,9 +12,9 @@ import threading
 # Default configuration
 config = {
     'mqtt': {
-        'broker': '10.10.10.5',
+        'broker': '127.0.0.1',
         'port': 1883,
-        'prefix': 'home/media',
+        'prefix': 'media',
     },
     'cec': {
         'enabled': 0,
